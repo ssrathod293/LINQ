@@ -1,0 +1,7 @@
+C:\Users\ssrat\source\repos\LinqToSQl\MatheaticalOperator\bin\Debug\MatheaticalOperator.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\MatheaticalOperator\bin\Debug\MatheaticalOperator.exe
+C:\Users\ssrat\source\repos\LinqToSQl\MatheaticalOperator\bin\Debug\MatheaticalOperator.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\MatheaticalOperator\obj\Debug\MatheaticalOperator.csproj.AssemblyReference.cache
+C:\Users\ssrat\source\repos\LinqToSQl\MatheaticalOperator\obj\Debug\MatheaticalOperator.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\MatheaticalOperator\obj\Debug\MatheaticalOperator.exe
+C:\Users\ssrat\source\repos\LinqToSQl\MatheaticalOperator\obj\Debug\MatheaticalOperator.pdb

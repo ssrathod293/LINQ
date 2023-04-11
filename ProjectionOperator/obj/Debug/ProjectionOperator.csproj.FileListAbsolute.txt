@@ -1,0 +1,7 @@
+C:\Users\ssrat\source\repos\LinqToSQl\ProjectionOperator\bin\Debug\ProjectionOperator.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\ProjectionOperator\bin\Debug\ProjectionOperator.exe
+C:\Users\ssrat\source\repos\LinqToSQl\ProjectionOperator\bin\Debug\ProjectionOperator.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\ProjectionOperator\obj\Debug\ProjectionOperator.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\ProjectionOperator\obj\Debug\ProjectionOperator.exe
+C:\Users\ssrat\source\repos\LinqToSQl\ProjectionOperator\obj\Debug\ProjectionOperator.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\ProjectionOperator\obj\Debug\ProjectionOperator.csproj.AssemblyReference.cache

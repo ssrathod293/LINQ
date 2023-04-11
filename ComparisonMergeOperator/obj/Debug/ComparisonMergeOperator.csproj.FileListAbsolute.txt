@@ -1,0 +1,7 @@
+C:\Users\ssrat\source\repos\LinqToSQl\ComparisonMergeOperator\bin\Debug\ComparisonMergeOperator.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\ComparisonMergeOperator\bin\Debug\ComparisonMergeOperator.exe
+C:\Users\ssrat\source\repos\LinqToSQl\ComparisonMergeOperator\bin\Debug\ComparisonMergeOperator.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\ComparisonMergeOperator\obj\Debug\ComparisonMergeOperator.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\ComparisonMergeOperator\obj\Debug\ComparisonMergeOperator.exe
+C:\Users\ssrat\source\repos\LinqToSQl\ComparisonMergeOperator\obj\Debug\ComparisonMergeOperator.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\ComparisonMergeOperator\obj\Debug\ComparisonMergeOperator.csproj.AssemblyReference.cache

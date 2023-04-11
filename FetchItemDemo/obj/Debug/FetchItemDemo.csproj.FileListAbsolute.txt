@@ -1,0 +1,7 @@
+C:\Users\ssrat\source\repos\LinqToSQl\FetchItemDemo\bin\Debug\FetchItemDemo.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\FetchItemDemo\bin\Debug\FetchItemDemo.exe
+C:\Users\ssrat\source\repos\LinqToSQl\FetchItemDemo\bin\Debug\FetchItemDemo.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\FetchItemDemo\obj\Debug\FetchItemDemo.csproj.AssemblyReference.cache
+C:\Users\ssrat\source\repos\LinqToSQl\FetchItemDemo\obj\Debug\FetchItemDemo.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\FetchItemDemo\obj\Debug\FetchItemDemo.exe
+C:\Users\ssrat\source\repos\LinqToSQl\FetchItemDemo\obj\Debug\FetchItemDemo.pdb

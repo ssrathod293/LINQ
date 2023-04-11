@@ -1,0 +1,7 @@
+C:\Users\ssrat\source\repos\LinqToSQl\GroupingOperatorDemo\bin\Debug\GroupingOperatorDemo.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\GroupingOperatorDemo\bin\Debug\GroupingOperatorDemo.exe
+C:\Users\ssrat\source\repos\LinqToSQl\GroupingOperatorDemo\bin\Debug\GroupingOperatorDemo.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\GroupingOperatorDemo\obj\Debug\GroupingOperatorDemo.csproj.AssemblyReference.cache
+C:\Users\ssrat\source\repos\LinqToSQl\GroupingOperatorDemo\obj\Debug\GroupingOperatorDemo.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\GroupingOperatorDemo\obj\Debug\GroupingOperatorDemo.exe
+C:\Users\ssrat\source\repos\LinqToSQl\GroupingOperatorDemo\obj\Debug\GroupingOperatorDemo.pdb

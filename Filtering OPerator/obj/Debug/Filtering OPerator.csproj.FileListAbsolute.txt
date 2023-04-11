@@ -1,0 +1,7 @@
+C:\Users\ssrat\source\repos\LinqToSQl\Filtering OPerator\bin\Debug\Filtering OPerator.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\Filtering OPerator\bin\Debug\Filtering OPerator.exe
+C:\Users\ssrat\source\repos\LinqToSQl\Filtering OPerator\bin\Debug\Filtering OPerator.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\Filtering OPerator\obj\Debug\Filtering OPerator.csproj.AssemblyReference.cache
+C:\Users\ssrat\source\repos\LinqToSQl\Filtering OPerator\obj\Debug\Filtering OPerator.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\Filtering OPerator\obj\Debug\Filtering OPerator.exe
+C:\Users\ssrat\source\repos\LinqToSQl\Filtering OPerator\obj\Debug\Filtering OPerator.pdb

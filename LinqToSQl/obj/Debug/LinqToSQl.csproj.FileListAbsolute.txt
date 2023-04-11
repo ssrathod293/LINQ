@@ -1,0 +1,16 @@
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\bin\Debug\LinqToSQl.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\bin\Debug\LinqToSQl.exe
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\bin\Debug\LinqToSQl.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\obj\Debug\LinqToSQl.csproj.AssemblyReference.cache
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\obj\Debug\LinqToSQl.Form1.resources
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\obj\Debug\LinqToSQl.Properties.Resources.resources
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\obj\Debug\LinqToSQl.csproj.GenerateResource.cache
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\obj\Debug\LinqToSQl.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\obj\Debug\LinqToSQl.exe
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\obj\Debug\LinqToSQl.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\obj\Debug\LinqToSQl.Form2.resources
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\obj\Debug\LinqToSQl.Form3.resources
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\obj\Debug\LinqToSQl.Form4.resources
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\obj\Debug\LinqToSQl.Form5.resources
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\obj\Debug\LinqToSQl.Form6.resources
+C:\Users\ssrat\source\repos\LinqToSQl\LinqToSQl\obj\Debug\LinqToSQl.Form7.resources

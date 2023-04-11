@@ -1,0 +1,7 @@
+C:\Users\ssrat\source\repos\LinqToSQl\Intro\bin\Debug\Intro.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\Intro\bin\Debug\Intro.exe
+C:\Users\ssrat\source\repos\LinqToSQl\Intro\bin\Debug\Intro.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\Intro\obj\Debug\Intro.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\Intro\obj\Debug\Intro.exe
+C:\Users\ssrat\source\repos\LinqToSQl\Intro\obj\Debug\Intro.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\Intro\obj\Debug\Intro.csproj.AssemblyReference.cache

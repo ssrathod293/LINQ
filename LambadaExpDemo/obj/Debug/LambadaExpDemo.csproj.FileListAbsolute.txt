@@ -1,0 +1,7 @@
+C:\Users\ssrat\source\repos\LinqToSQl\LambadaExpDemo\bin\Debug\LambadaExpDemo.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\LambadaExpDemo\bin\Debug\LambadaExpDemo.exe
+C:\Users\ssrat\source\repos\LinqToSQl\LambadaExpDemo\bin\Debug\LambadaExpDemo.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\LambadaExpDemo\obj\Debug\LambadaExpDemo.csproj.AssemblyReference.cache
+C:\Users\ssrat\source\repos\LinqToSQl\LambadaExpDemo\obj\Debug\LambadaExpDemo.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\LambadaExpDemo\obj\Debug\LambadaExpDemo.exe
+C:\Users\ssrat\source\repos\LinqToSQl\LambadaExpDemo\obj\Debug\LambadaExpDemo.pdb

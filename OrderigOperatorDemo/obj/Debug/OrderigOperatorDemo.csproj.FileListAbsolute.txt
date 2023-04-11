@@ -1,0 +1,7 @@
+C:\Users\ssrat\source\repos\LinqToSQl\OrderigOperatorDemo\bin\Debug\OrderigOperatorDemo.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\OrderigOperatorDemo\bin\Debug\OrderigOperatorDemo.exe
+C:\Users\ssrat\source\repos\LinqToSQl\OrderigOperatorDemo\bin\Debug\OrderigOperatorDemo.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\OrderigOperatorDemo\obj\Debug\OrderigOperatorDemo.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\OrderigOperatorDemo\obj\Debug\OrderigOperatorDemo.exe
+C:\Users\ssrat\source\repos\LinqToSQl\OrderigOperatorDemo\obj\Debug\OrderigOperatorDemo.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\OrderigOperatorDemo\obj\Debug\OrderigOperatorDemo.csproj.AssemblyReference.cache

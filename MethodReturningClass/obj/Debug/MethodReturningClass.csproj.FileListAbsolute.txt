@@ -1,0 +1,6 @@
+C:\Users\ssrat\source\repos\LinqToSQl\MethodReturningClass\bin\Debug\MethodReturningClass.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\MethodReturningClass\bin\Debug\MethodReturningClass.exe
+C:\Users\ssrat\source\repos\LinqToSQl\MethodReturningClass\bin\Debug\MethodReturningClass.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\MethodReturningClass\obj\Debug\MethodReturningClass.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\MethodReturningClass\obj\Debug\MethodReturningClass.exe
+C:\Users\ssrat\source\repos\LinqToSQl\MethodReturningClass\obj\Debug\MethodReturningClass.pdb

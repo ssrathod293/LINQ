@@ -1,0 +1,7 @@
+C:\Users\ssrat\source\repos\LinqToSQl\JoinsDemo\bin\Debug\JoinsDemo.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\JoinsDemo\bin\Debug\JoinsDemo.exe
+C:\Users\ssrat\source\repos\LinqToSQl\JoinsDemo\bin\Debug\JoinsDemo.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\JoinsDemo\obj\Debug\JoinsDemo.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\JoinsDemo\obj\Debug\JoinsDemo.exe
+C:\Users\ssrat\source\repos\LinqToSQl\JoinsDemo\obj\Debug\JoinsDemo.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\JoinsDemo\obj\Debug\JoinsDemo.csproj.AssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\Users\ssrat\source\repos\LinqToSQl\NareshPractice\bin\Debug\NareshPractice.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\NareshPractice\bin\Debug\NareshPractice.exe
+C:\Users\ssrat\source\repos\LinqToSQl\NareshPractice\bin\Debug\NareshPractice.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\NareshPractice\obj\Debug\NareshPractice.csproj.AssemblyReference.cache
+C:\Users\ssrat\source\repos\LinqToSQl\NareshPractice\obj\Debug\NareshPractice.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\NareshPractice\obj\Debug\NareshPractice.exe
+C:\Users\ssrat\source\repos\LinqToSQl\NareshPractice\obj\Debug\NareshPractice.pdb

@@ -1,0 +1,6 @@
+C:\Users\ssrat\source\repos\LinqToSQl\GenerationOperator\bin\Debug\GenerationOperator.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\GenerationOperator\bin\Debug\GenerationOperator.exe
+C:\Users\ssrat\source\repos\LinqToSQl\GenerationOperator\bin\Debug\GenerationOperator.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\GenerationOperator\obj\Debug\GenerationOperator.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\GenerationOperator\obj\Debug\GenerationOperator.exe
+C:\Users\ssrat\source\repos\LinqToSQl\GenerationOperator\obj\Debug\GenerationOperator.pdb

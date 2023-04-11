@@ -1,0 +1,7 @@
+C:\Users\ssrat\source\repos\LinqToSQl\ElementsOperator\bin\Debug\ElementsOperator.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\ElementsOperator\bin\Debug\ElementsOperator.exe
+C:\Users\ssrat\source\repos\LinqToSQl\ElementsOperator\bin\Debug\ElementsOperator.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\ElementsOperator\obj\Debug\ElementsOperator.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\ElementsOperator\obj\Debug\ElementsOperator.exe
+C:\Users\ssrat\source\repos\LinqToSQl\ElementsOperator\obj\Debug\ElementsOperator.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\ElementsOperator\obj\Debug\ElementsOperator.csproj.AssemblyReference.cache

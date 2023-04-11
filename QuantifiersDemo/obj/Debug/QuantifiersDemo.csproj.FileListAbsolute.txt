@@ -1,0 +1,7 @@
+C:\Users\ssrat\source\repos\LinqToSQl\QuantifiersDemo\bin\Debug\QuantifiersDemo.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\QuantifiersDemo\bin\Debug\QuantifiersDemo.exe
+C:\Users\ssrat\source\repos\LinqToSQl\QuantifiersDemo\bin\Debug\QuantifiersDemo.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\QuantifiersDemo\obj\Debug\QuantifiersDemo.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\QuantifiersDemo\obj\Debug\QuantifiersDemo.exe
+C:\Users\ssrat\source\repos\LinqToSQl\QuantifiersDemo\obj\Debug\QuantifiersDemo.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\QuantifiersDemo\obj\Debug\QuantifiersDemo.csproj.AssemblyReference.cache

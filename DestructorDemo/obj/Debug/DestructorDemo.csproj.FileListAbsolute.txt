@@ -1,0 +1,7 @@
+C:\Users\ssrat\source\repos\LinqToSQl\DestructorDemo\bin\Debug\DestructorDemo.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\DestructorDemo\bin\Debug\DestructorDemo.exe
+C:\Users\ssrat\source\repos\LinqToSQl\DestructorDemo\bin\Debug\DestructorDemo.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\DestructorDemo\obj\Debug\DestructorDemo.csproj.AssemblyReference.cache
+C:\Users\ssrat\source\repos\LinqToSQl\DestructorDemo\obj\Debug\DestructorDemo.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\DestructorDemo\obj\Debug\DestructorDemo.exe
+C:\Users\ssrat\source\repos\LinqToSQl\DestructorDemo\obj\Debug\DestructorDemo.pdb
