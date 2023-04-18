@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="CompanyDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Department">
+          <Key>
+            <PropertyRef Name="DeptNo" />
+          </Key>
+          <Property Name="DeptNo" Type="int" Nullable="false" />
+          <Property Name="Dname" Type="varchar" MaxLength="30" />
+          <Property Name="Loc" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="Employe">
+          <Key>
+            <PropertyRef Name="EmpNo" />
+          </Key>
+          <Property Name="EmpNo" Type="int" Nullable="false" />
+          <Property Name="Ename" Type="varchar" MaxLength="30" />
+          <Property Name="Job" Type="varchar" MaxLength="20" />
+          <Property Name="Mang" Type="int" />
+          <Property Name="Hiredate" Type="date" />
+          <Property Name="Salary" Type="money" />
+          <Property Name="EDept" Type="int" />
+        </EntityType>
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="Eno" />
+          </Key>
+          <Property Name="Eno" Type="int" Nullable="false" />
+          <Property Name="Ename" Type="varchar" MaxLength="50" />
+          <Property Name="Job" Type="varchar" MaxLength="50" />
+          <Property Name="Salary" Type="money" />
+          <Property Name="Dname" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK__Employe__EDept__5165187F">
+          <End Role="Department" Type="Self.Department" Multiplicity="0..1" />
+          <End Role="Employe" Type="Self.Employe" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Department">
+              <PropertyRef Name="DeptNo" />
+            </Principal>
+            <Dependent Role="Employe">
+              <PropertyRef Name="EDept" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="Employee_Insert" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Ename" Type="varchar" Mode="In" />
+          <Parameter Name="Job" Type="varchar" Mode="In" />
+          <Parameter Name="Salary" Type="money" Mode="In" />
+          <Parameter Name="Dname" Type="varchar" Mode="In" />
+          <Parameter Name="Eno" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="Employee_select" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Dname" Type="varchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="CompanyDBModelStoreContainer">
+          <EntitySet Name="Department" EntityType="Self.Department" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Employe" EntityType="Self.Employe" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Employe__EDept__5165187F" Association="Self.FK__Employe__EDept__5165187F">
+            <End Role="Department" EntitySet="Department" />
+            <End Role="Employe" EntitySet="Employe" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CompanyDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Department">
+          <Key>
+            <PropertyRef Name="DeptNo" />
+          </Key>
+          <Property Name="DeptNo" Type="Int32" Nullable="false" />
+          <Property Name="Dname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="Loc" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Employes" Relationship="Self.FK__Employe__EDept__5165187F" FromRole="Department" ToRole="Employe" />
+        </EntityType>
+        <EntityType Name="Employe">
+          <Key>
+            <PropertyRef Name="EmpNo" />
+          </Key>
+          <Property Name="EmpNo" Type="Int32" Nullable="false" />
+          <Property Name="Ename" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="Job" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Mang" Type="Int32" />
+          <Property Name="Hiredate" Type="DateTime" Precision="0" />
+          <Property Name="Salary" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="EDept" Type="Int32" />
+          <NavigationProperty Name="Department" Relationship="Self.FK__Employe__EDept__5165187F" FromRole="Employe" ToRole="Department" />
+        </EntityType>
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="Eno" />
+          </Key>
+          <Property Name="Eno" Type="Int32" Nullable="false" />
+          <Property Name="Ename" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Job" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Salary" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Dname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <Association Name="FK__Employe__EDept__5165187F">
+          <End Role="Department" Type="Self.Department" Multiplicity="0..1" />
+          <End Role="Employe" Type="Self.Employe" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Department">
+              <PropertyRef Name="DeptNo" />
+            </Principal>
+            <Dependent Role="Employe">
+              <PropertyRef Name="EDept" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CompanyDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Departments" EntityType="Self.Department" />
+          <EntitySet Name="Employes" EntityType="Self.Employe" />
+          <EntitySet Name="Employees" EntityType="Self.Employee" />
+          <AssociationSet Name="FK__Employe__EDept__5165187F" Association="Self.FK__Employe__EDept__5165187F">
+            <End Role="Department" EntitySet="Departments" />
+            <End Role="Employe" EntitySet="Employes" />
+          </AssociationSet>
+          <FunctionImport Name="Employee_Insert">
+            <Parameter Name="Ename" Mode="In" Type="String" />
+            <Parameter Name="Job" Mode="In" Type="String" />
+            <Parameter Name="Salary" Mode="In" Type="Decimal" />
+            <Parameter Name="Dname" Mode="In" Type="String" />
+            <Parameter Name="Eno" Mode="InOut" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="Employee_select" ReturnType="Collection(CompanyDBModel.Employee_select_Result)">
+            <Parameter Name="Dname" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="Employee_select_Result">
+          <Property Type="Int32" Name="Eno" Nullable="false" />
+          <Property Type="String" Name="Ename" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Job" Nullable="true" MaxLength="50" />
+          <Property Type="Decimal" Name="Salary" Nullable="true" Precision="19" />
+          <Property Type="String" Name="Dname" Nullable="true" MaxLength="50" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CompanyDBModelStoreContainer" CdmEntityContainer="CompanyDBEntities">
+          <EntitySetMapping Name="Departments">
+            <EntityTypeMapping TypeName="CompanyDBModel.Department">
+              <MappingFragment StoreEntitySet="Department">
+                <ScalarProperty Name="DeptNo" ColumnName="DeptNo" />
+                <ScalarProperty Name="Dname" ColumnName="Dname" />
+                <ScalarProperty Name="Loc" ColumnName="Loc" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Employes">
+            <EntityTypeMapping TypeName="CompanyDBModel.Employe">
+              <MappingFragment StoreEntitySet="Employe">
+                <ScalarProperty Name="EmpNo" ColumnName="EmpNo" />
+                <ScalarProperty Name="Ename" ColumnName="Ename" />
+                <ScalarProperty Name="Job" ColumnName="Job" />
+                <ScalarProperty Name="Mang" ColumnName="Mang" />
+                <ScalarProperty Name="Hiredate" ColumnName="Hiredate" />
+                <ScalarProperty Name="Salary" ColumnName="Salary" />
+                <ScalarProperty Name="EDept" ColumnName="EDept" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Employees">
+            <EntityTypeMapping TypeName="CompanyDBModel.Employee">
+              <MappingFragment StoreEntitySet="Employee">
+                <ScalarProperty Name="Eno" ColumnName="Eno" />
+                <ScalarProperty Name="Ename" ColumnName="Ename" />
+                <ScalarProperty Name="Job" ColumnName="Job" />
+                <ScalarProperty Name="Salary" ColumnName="Salary" />
+                <ScalarProperty Name="Dname" ColumnName="Dname" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="Employee_Insert" FunctionName="CompanyDBModel.Store.Employee_Insert" />
+          <FunctionImportMapping FunctionImportName="Employee_select" FunctionName="CompanyDBModel.Store.Employee_select">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="CompanyDBModel.Employee_select_Result">
+                <ScalarProperty Name="Eno" ColumnName="Eno" />
+                <ScalarProperty Name="Ename" ColumnName="Ename" />
+                <ScalarProperty Name="Job" ColumnName="Job" />
+                <ScalarProperty Name="Salary" ColumnName="Salary" />
+                <ScalarProperty Name="Dname" ColumnName="Dname" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

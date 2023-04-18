@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompanyDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DeptNo" />
+    </Key>
+    <Property Name="DeptNo" Type="Int32" Nullable="false" />
+    <Property Name="Dname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Loc" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Employes" Relationship="Self.FK__Employe__EDept__5165187F" FromRole="Department" ToRole="Employe" />
+  </EntityType>
+  <EntityType Name="Employe">
+    <Key>
+      <PropertyRef Name="EmpNo" />
+    </Key>
+    <Property Name="EmpNo" Type="Int32" Nullable="false" />
+    <Property Name="Ename" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Job" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Mang" Type="Int32" />
+    <Property Name="Hiredate" Type="DateTime" Precision="0" />
+    <Property Name="Salary" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="EDept" Type="Int32" />
+    <NavigationProperty Name="Department" Relationship="Self.FK__Employe__EDept__5165187F" FromRole="Employe" ToRole="Department" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Eno" />
+    </Key>
+    <Property Name="Eno" Type="Int32" Nullable="false" />
+    <Property Name="Ename" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Job" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Salary" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Dname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK__Employe__EDept__5165187F">
+    <End Role="Department" Type="Self.Department" Multiplicity="0..1" />
+    <End Role="Employe" Type="Self.Employe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="DeptNo" />
+      </Principal>
+      <Dependent Role="Employe">
+        <PropertyRef Name="EDept" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CompanyDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Departments" EntityType="Self.Department" />
+    <EntitySet Name="Employes" EntityType="Self.Employe" />
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <AssociationSet Name="FK__Employe__EDept__5165187F" Association="Self.FK__Employe__EDept__5165187F">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Employe" EntitySet="Employes" />
+    </AssociationSet>
+    <FunctionImport Name="Employee_Insert">
+      <Parameter Name="Ename" Mode="In" Type="String" />
+      <Parameter Name="Job" Mode="In" Type="String" />
+      <Parameter Name="Salary" Mode="In" Type="Decimal" />
+      <Parameter Name="Dname" Mode="In" Type="String" />
+      <Parameter Name="Eno" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Employee_select" ReturnType="Collection(CompanyDBModel.Employee_select_Result)">
+      <Parameter Name="Dname" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="Employee_select_Result">
+    <Property Type="Int32" Name="Eno" Nullable="false" />
+    <Property Type="String" Name="Ename" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Job" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="Salary" Nullable="true" Precision="19" />
+    <Property Type="String" Name="Dname" Nullable="true" MaxLength="50" />
+  </ComplexType>
+</Schema>

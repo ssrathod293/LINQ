@@ -1,0 +1,15 @@
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\bin\Debug\databasefirstCRUD.exe.config
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\bin\Debug\databasefirstCRUD.exe
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\bin\Debug\databasefirstCRUD.pdb
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\bin\Debug\EntityFramework.dll
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\bin\Debug\EntityFramework.xml
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\obj\Debug\databasefirstCRUD.csproj.AssemblyReference.cache
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\obj\Debug\databasefirstCRUD.Form1.resources
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\obj\Debug\databasefirstCRUD.Properties.Resources.resources
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\obj\Debug\databasefirstCRUD.csproj.GenerateResource.cache
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\obj\Debug\databasefirstCRUD.csproj.CoreCompileInputs.cache
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\obj\Debug\databasefirstCRUD.csproj.CopyComplete
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\obj\Debug\databasefirstCRUD.exe
+C:\Users\ssrat\source\repos\LinqToSQl\databasefirstCRUD\obj\Debug\databasefirstCRUD.pdb

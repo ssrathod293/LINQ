@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderigOperatorDemo", "Orde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinsDemo", "JoinsDemo\JoinsDemo.csproj", "{B461F6B4-9E67-4A13-B493-8E02314F37BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversionOPerators", "ConversionOPerators\ConversionOPerators.csproj", "{4CCE31A2-B2FA-4A8F-8D2F-F06C9A7B1DCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "databasefirstCRUD", "databasefirstCRUD\databasefirstCRUD.csproj", "{42045798-3AA3-447E-A8C0-4A1413472F5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{B461F6B4-9E67-4A13-B493-8E02314F37BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B461F6B4-9E67-4A13-B493-8E02314F37BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B461F6B4-9E67-4A13-B493-8E02314F37BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CCE31A2-B2FA-4A8F-8D2F-F06C9A7B1DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCE31A2-B2FA-4A8F-8D2F-F06C9A7B1DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCE31A2-B2FA-4A8F-8D2F-F06C9A7B1DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCE31A2-B2FA-4A8F-8D2F-F06C9A7B1DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42045798-3AA3-447E-A8C0-4A1413472F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42045798-3AA3-447E-A8C0-4A1413472F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42045798-3AA3-447E-A8C0-4A1413472F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42045798-3AA3-447E-A8C0-4A1413472F5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
